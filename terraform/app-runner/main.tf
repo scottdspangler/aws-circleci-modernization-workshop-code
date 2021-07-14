@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "" # Enter the Terraform Cloud Organization here
+    organization = "Trellis-Software" # Enter the Terraform Cloud Organization here
     workspaces {
       name = "app-aws-circleci"
     }
